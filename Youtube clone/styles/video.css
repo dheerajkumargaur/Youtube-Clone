@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f9f9f9;
+  margin: 0px;
+  padding: 0px;
+}
+#nav_Bar {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.973);
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  margin-top: -80px;
+  box-sizing: border-box;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.meanu_icon {
+  cursor: pointer;
+  width: 3%;
+  margin-left: 10px;
+}
+.meanu_icon > i {
+  font-size: 20px;
+}
+.youtube_Logo {
+  width: 27%;
+}
+.youtube_img_div {
+  width: 38%;
+  text-align: left;
+}
+.youtube_img_div > a > img {
+  width: 65%;
+}
+
+.search_Input_Div {
+  display: flex;
+  width: 38%;
+}
+
+.search_input_child_div {
+  width: 90%;
+  border: 1px solid rgb(160, 160, 160);
+  height: 56%;
+}
+input {
+  border: transparent;
+  font-size: 16px;
+  padding: 6px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  font-size: 16px;
+}
+.search_btn {
+  background-color: #f9f9f9;
+  width: 51px;
+  padding: 7px;
+  border: 1px solid rgb(94, 94, 94);
+  cursor: pointer;
+}
+.mic_icon {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.mic_icon_btn {
+  background-color: #f9f9f9;
+  border-radius: 100%;
+  border: none;
+  width: 37px;
+  height: 37px;
+}
+.mic_icon_btn > i {
+  width: 10px;
+  font-size: 14px;
+}
+
+.same_icon {
+  margin-left: 8%;
+}
+.same_icon > i {
+  margin-left: 30px;
+  font-size: 18px;
+  color: rgb(104, 104, 104);
+}
+
+
+
+
+.google_email {
+  margin-left: 2%;
+  width: 3%;
+  height: 40px;
+}
+
+.firest_lettter {
+  width: 80%;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+
+}
+
+.firest_lettter > img{
+  width: 100%;
+}
+
+#Showing_the_video {
+  font-family: sans-serif;
+  width: 86%;
+  gap: 20px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+}
+
+.leftSide_showing_video {
+  width: 70%;
+}
+.video_tit > h3 {
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.viwes_like {
+  margin-top: 15px;
+  color: rgb(58, 58, 58);
+  width: 99%;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(148, 148, 148, 0.473);
+}
+.Like_dislike {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+  text-align: end;
+}
+.Like_dislike > i {
+  font-size: 14px;
+}
+
+
+.channel_div {
+  padding: 5px;
+  margin-top: 18px;
+  display: flex;
+  gap: 8px;
+}
+
+.channel_name > p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+.channel_name > p + p {
+  color: #5f5f5f;
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.channel_img {
+  width: 5.4%;
+  height: 48px;
+}
+.channel_img > img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.subscribe_button {
+  width: 79%;
+  text-align: end;
+}
+.subscribe_button > button {
+  background-color: rgba(241, 11, 11, 0.966);
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.video_dec > p {
+  width: 88%;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 25px;
+  font-size: 17px;
+  color: rgb(73, 73, 73);
+}
+
+#silder_meanu {
+  display: none;
+  width: 70px;
+  background-color: #fff;
+  position: fixed;
+  height: 100%;
+  text-align: center;
+  top: 50px;
+}
+
+#silder_meanu.active {
+  display: block;
+}
+
+.silder_meanu_small > a {
+  text-decoration: none;
+  color: black;
+}
+
+.silder_div_icon {
+  margin-top: 25px;
+}
+
+.silder_div_icon > i {
+  font-size: 25px;
+  margin-top: 19px;
+}
+.silder_div_icon > p {
+  margin: 8px;
+  padding: 0;
+}
+
+
+.rightSide_suggection {
+  width: 70%;
+ height: 850px;
+ overflow: scroll;
+}
+
+
+
+
+.rightSide_suggection::-webkit-scrollbar {
+  display: none;
+}
+
+.right_div_con {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.right_img {
+  width: 50%;
+
+}
+
+.right_img > img{
+  width: 100%;
+
+}
+
+
+.left_div_text {
+  width:40% ;
+}
+
+
+.left_div_text > h3{
+  width: 100%;
+  height: 41px;
+  font-size: 14px;
+  line-height: 19px;
+  overflow: hidden;
+
+}
+
+.left_div_text > h5{
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+  overflow: hidden;
+
+}
+
+.left_div_text > p{
+  font-size: 14px;
+}
