@@ -11,10 +11,10 @@ Individual Project
 * Github
 
 ## functionalities
-* Signup and Login
-* Account Details
-* Transaction History
-* update amount according to their transactions
+* Home Page
+* Video Search
+* Video Play
+* Login
 
 
 ## Challenges:
